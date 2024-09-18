@@ -43,6 +43,14 @@ ul li{
 .logo{
     color: #439F90;
 }
+.icon-act{
+    color: #439F90;
+}
+li :hover{
+   
+    border-bottom: 3px solid #439F90;
+    margin-top: 4rem;
+}
 li button{
     border-radius: 40px;
     padding: 12px 33px 10px 33px;
@@ -213,7 +221,7 @@ li button:hover{
     margin-top: .6rem;
 }
 
-#projects{
+#Projects{
    
     background: #000;
     padding: 7rem 0 7rem 0;
@@ -293,7 +301,7 @@ li button:hover{
 
  #digital{
     background: #F1EEE9;
-    padding-top: 3rem;
+    padding: 3rem 0 2rem 0;
  }
 
  .digital-main{
@@ -303,14 +311,34 @@ li button:hover{
  .digital-para{
      margin-top: 3rem;
  }
+ .digital-para h1{
+    background: #CBC9B3;
+    padding: 20px;
+    border-radius: 10px;
+ }
  .digital-para h2{
     margin-top: 3rem;
 }
  .digital-img img{
     width: 300px;
  }
+ .cta-3 .icon-f1{
+    color: orange;  
+}
+.digital-para h1{
+    font-size: 1.5rem;
+}
 
-
+.digital-para .cta-3 {
+   text-decoration: none;
+   color: #141B0B;
+}
+.digital-para hr{
+    margin-top: 2rem;
+}
+.icon-12, .digital{
+    color: #439F90;
+}
  footer{
     background: #000;
     padding: 20px;
