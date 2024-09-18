@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto';
+    background: #F1EEE9;
+    
+}
+.container{
+    margin:0px auto;
+    max-width: 1200px;
+}
+nav ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:12px 30px 14px 15px;
+    align-items: center;
+    border-bottom: 2px solid #dddd;
+}
+nav{
+    padding:10px 50px 20px 0px
+}
+
+header{
+    margin:0 10rem 0 10rem;
+}
+nav ul a{
+  color: #717170;
+  text-decoration: none;
+  margin:12px 13px;
+}
+
+ul li{
+    display: inline;
+}
+.logo-1{
+   
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.logo{
+    color: #439F90;
+}
+li button{
+    border-radius: 40px;
+    padding: 12px 33px 10px 33px;
+    background-color: #439F90;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+li button:hover{
+    background-color: #EFEEE9;
+    color: black;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-1 h1{
+     font-size: 3.8rem;
+     font-weight: 900;
+     padding-left: 11rem;
+}
+.hero-1 p{
+    font-size: 1rem;
+    color: #717170;
+    max-width: 360px;
+    padding-left: 11rem;
+    margin-top: 2rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.hero-2 img{
+   
+    padding-right: 9rem;
+}
+
+.btn-1{
+    border-radius: 40px;
+    padding: 12px 33px 10px 33px;
+    background-color: #000;
+    color: #ffffff;
+    cursor: pointer;
+    border: none; 
+    
+}
+.cta{
+    padding-left: 11rem;
+    margin-top: 2rem;
+}
+.btn-2 {
+    color: #000;
+    
+}
+.cta-2{
+    margin-right: 2.5rem;
+}
+.cta a{
+    text-decoration: none;
+}
+
+.icon{
+    padding: 10px 20px 5px 20px;
+}
+
+#About{
+   
+    background: #000;
+    padding-top: 5rem;
+    color: #fff;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about-1{
+    margin-left: 2rem;
+}
+.about-1 h1{
+    font-size: 1rem;
+    color: orange;
+}
+
+.about-1 h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.cta-2{
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.cta-2 :hover{
+    background-color: #439F90;
+    border-radius: 50%;
+    padding:5px;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.card{
+   background: #141B0B;
+    box-sizing: content-box;
+    padding: 50px;
+    max-width: 12rem;
+    margin-right: .7rem;
+    border-radius: 20px;
+}
+
+.card .icon{
+    font-size: 3rem;
+}
+.card p{
+    margin-top: .5rem;
+}
+.card-section :hover{
+    background: orange;
+    color: #000;
+}
+
+#team{
+
+    background: #000;
+    padding-top: 7rem;
+    color: #fff; 
+}
+.team-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-heading h1{
+    font-size: 1rem;
+    color:orange;
+
+}
+.team-heading h2{
+    font-size: 2.7rem;
+}
+
+.team-pics{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+
+.team-pics .card-img img{
+    border-radius: 50%;
+    width: 200px;
+    box-sizing: content-box;
+ 
+}
+.team-pics .card-img{
+ 
+    border-radius: 1px solid red;
+}
+.card-img h5, p {
+    text-align: center;
+    margin-top: .6rem;
+}
+
+#projects{
+   
+    background: #000;
+    padding: 7rem 0 7rem 0;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-1 img{
+    width: 300px;
+    
+}
+
+.project-2{
+    margin-right: 5rem;
+}
+.project-2 h1{
+    color: orange;
+    font-size: 1rem;
+}
+.project-2 h2{
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+.project-2 p{
+    color: #717170;
+    font-size: 1rem;
+    max-width: 400px;
+    text-align: left;
+    margin-top: 1.3rem;
+}
+.project-2 h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+    margin: 2rem 0 2rem 0;
+}
+
+.project-2 .cta-3 {
+   text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
+}
+.cta-3 {
+    margin-top: 3rem;
+}
+
+.project-2 a{
+    margin-top: 2rem;
+}
+.cta-3 .icon-f1{
+ 
+    color: #439F90;
+}
+.team-card{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 5rem;
+}
+.card-play{
+    background: #141B0B;
+     box-sizing: content-box;
+     padding: 50px;
+     max-width: 10rem;
+   
+ }
+.card-1{
+     background-color: orange;
+}
+ .card-2{
+    background-color: #439F90;
+ }
+
+ #digital{
+    background: #F1EEE9;
+    padding-top: 3rem;
+ }
+
+ .digital-main{
+    display: flex;
+    justify-content: space-around;
+ }
+ .digital-para{
+     margin-top: 3rem;
+ }
+ .digital-para h2{
+    margin-top: 3rem;
+}
+ .digital-img img{
+    width: 300px;
+ }
+
+
+ footer{
+    background: #000;
+    padding: 20px;
+    color: #fff;
+ }
+ .foot{
+    color: orange;
+ }
